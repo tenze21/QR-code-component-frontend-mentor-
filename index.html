@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400&family=Rubik:wght@400;500&display=swap');
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins','sans-serif';
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: azure;
+      }
+      .container{
+        background-color: #fff;
+        width: 235px;
+        height: 383px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+      }
+      .container img{
+        height: 220px;
+        width: 210px;
+        border-radius: 12px;
+        margin: 10px 0;
+      }
+      .description{
+        text-align: center;
+        width: 190px;
+        font-size: 12px;
+      }
+      .description p{
+        font-size: 10px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        color: gray;
+      }
+      .description h3{
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <img
+          src="qr-code-component-main/images/image-qr-code.png"
+          alt="QR-code"
+          title="scan the QR code to know more about us."
+        />
+      <div class="description">
+        <h3>Improve your front-end skills by building projects</h3>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
